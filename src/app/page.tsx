@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import Navbar from "@/components/NavBar";
 import Link from "next/link";
-import FAQSection from "@/components/faq";
+import FAQSection from "@/components/Faq";
 
 export default function Home() {
   const [volume, setVolume] = useState(1000); // Default 1000 liters

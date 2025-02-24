@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { Button } from "./ui/button";
-import { CircleArrowRight, Menu, X } from "lucide-react";
+import {  Menu, X } from "lucide-react";
 import NavLinks from "./NavLinks";
 
 function Navbar() {

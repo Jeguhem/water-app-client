@@ -1,5 +1,5 @@
 import React from 'react';
-import { Transition } from '@headlessui/react';
+// import { Transition } from '@headlessui/react';
 import { Shield, Award, Users, TrendingUp, Truck, Factory, Phone, Mail, MapPin } from 'lucide-react';
 
 const AboutPage = () => {
