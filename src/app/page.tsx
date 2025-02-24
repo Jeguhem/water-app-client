@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 import Navbar from "@/components/NavBar";
 import Link from "next/link";
+import FAQSection from "@/components/faq";
 
 export default function Home() {
   const [volume, setVolume] = useState(1000); // Default 1000 liters
@@ -240,6 +241,9 @@ export default function Home() {
         </div>
       </section>
 
+      {/* FAQ */}
+      <FAQSection />
+
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="container mx-auto px-4">
@@ -294,3 +298,6 @@ export default function Home() {
     </div>
   );
 }
+
+
+

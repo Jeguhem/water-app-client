@@ -37,9 +37,9 @@ function Navbar() {
 
         {/* Contact Button (Visible on larger screens) */}
         <div className="hidden md:block">
-          <Button className="gap-3 rounded-full bg-slate-700 transition-transform duration-300 ease-in-out hover:scale-110">
-            <p className="font-semibold">Contact us</p>
-            <CircleArrowRight />
+          <Button className="gap-3 flex items-center rounded-md bg-slate-700 transition-transform duration-300 ease-in-out hover:scale-110">
+            <p className="font-semibold">Login</p>
+            {/* <CircleArrowRight /> */}
           </Button>
         </div>
 
@@ -56,9 +56,9 @@ function Navbar() {
         <div className="absolute left-0 top-16 w-full bg-white shadow-md md:hidden">
           <div className="flex flex-col items-center space-y-4 py-4">
             <NavLinks />
-            <Button className="gap-3 rounded-full bg-slate-700">
-              <p className="font-semibold">Contact us</p>
-              <CircleArrowRight />
+            <Button className="gap-3 rounded-md bg-slate-700">
+              <p className="font-semibold">Login</p>
+              {/* <CircleArrowRight /> */}
             </Button>
           </div>
         </div>
